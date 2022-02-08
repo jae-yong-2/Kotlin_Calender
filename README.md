@@ -33,10 +33,10 @@ fun main(){
 
 /**
  * TODO
- * 코틀린 문법 익히기
+ * Study Kotlin Syntax
  *
- * 1. 함수
- * 자바의 void 와 같은 함수형은 Unit
+ * 1. function
+ * java's void is very similar to kotlin's Unit
  *
  */
 fun helloWorld() : Unit{
@@ -105,5 +105,51 @@ fun Array_VS_List(){
 
     array[1] = 4
     //list[0] = 2 make error
+}
+
+fun for_and_while(){
+    val students :ArrayList<String> = arrayListOf("1","2","3","4")
+
+    for (name : String in students){
+        print("${name}")
+    }
+    /**
+     * 1..10
+     * this Syntax add 1 to 10
+     * 1..10 step
+     * this Syntax add values by adding 2 from 1 to 10
+     *
+     * 1 until 10
+     * this Syntax sum 1 to 9
+     * %Do not include 10
+     *
+     * 10 downTo 1
+     * this Syntax sum 10 to 1
+     */
+
+    /**
+     * for
+     */
+    var sum :Int = 0
+    for (i :Int in 1..10){
+        sum += i
+    }
+
+    /**
+     * while
+     */
+    var index = 0
+    while(index<10){
+        println("공부중입니다.")
+        index++
+    }
+
+    /**
+     * withIndex()
+     */
+
+    for( (index:Int, name :String) in students.withIndex()){
+        println("${index}'s student : $name")
+    }
 
 }
