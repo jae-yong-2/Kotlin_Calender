@@ -6,7 +6,7 @@ The readme file is a space for writing Kotlin syntax. The contents of the file a
 
 
 /**
- * TODO
+ * Memo
  *
  * VS 1
  *
@@ -20,6 +20,7 @@ The readme file is a space for writing Kotlin syntax. The contents of the file a
  *
  *
  * VS 2 --> fun Array_VS_List
+ *
  * immutable List VS Mutable List
  *
  * immutable list can't change value in runtime
@@ -32,7 +33,7 @@ fun main(){
 }
 
 /**
- * TODO
+ * Memo
  * Study Kotlin Syntax
  *
  * 1. function
@@ -45,7 +46,7 @@ fun helloWorld() : Unit{
 
 
 /**
- * TODO
+ * Memo
  *
  * @param a : Int
  * @param b : Int
@@ -58,7 +59,7 @@ fun add(a:Int, b:Int):Int {
 }
 
 /**
- * TODO
+ * Memo
  *
  * var can not change in runtime
  * val can change in runtime
@@ -79,7 +80,7 @@ fun StringTemplate(){
 }
 
 /**
- * TODO
+ * Memo
  * Must famous mutable list is Array
  * Must famous immutable list is List
  *
